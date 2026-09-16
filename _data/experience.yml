@@ -1,10 +1,16 @@
 # Jobs
+- company: Freelance
+  position: Software Engineer
+  duration: Sep 2026 &mdash; Now
+  summary: >
+    Creating ML coding tasks for agentic coding models for RLHF training data
+
 - company: GreenFlip
   position: Founding ML Engineer
-  duration: Sep 2025 &mdash; Now
+  duration: Sep 2025 &mdash; Sep 2026 • 1yr
   summary: >
-    Building ML models to assess residential homes for low-carbon heating retrofit. Working across computer vision, geospatial, tabular modelling.
-    My initial solar panel placement algorithm has higher accuracy than the Google Solar API on UK homes.
+    I built ML models to assess residential homes for low-carbon heating retrofit. Working across computer vision, geospatial, and tabular modelling.
+    My solar panel placement algorithm had higher accuracy on maximum placeable panels than the Google Solar API on our internal evaluation set of diverse UK homes.
 
 - company: Continuum Industries
   position: Senior Software Engineer
