@@ -3,13 +3,13 @@
   position: Software Engineer
   duration: Sep 2026 &mdash; Now
   summary: >
-    Creating ML coding tasks for agentic coding models for RLHF training data
+    Creating ML coding tasks used as RLHF training data for agentic coding models.
 
 - company: GreenFlip
   position: Founding ML Engineer
   duration: Sep 2025 &mdash; Sep 2026 • 1yr
   summary: >
-    I built ML models to assess residential homes for low-carbon heating retrofit. Working across computer vision, geospatial, and tabular modelling.
+    I built ML models to assess residential homes for low-carbon heating retrofit, working across computer vision, geospatial, and tabular modelling.
     My solar panel placement algorithm had higher accuracy on maximum placeable panels than the Google Solar API on our internal evaluation set of diverse UK homes.
 
 - company: Continuum Industries
@@ -17,68 +17,68 @@
   duration: May 2024 &mdash; Aug 2025 • 1yr 4m
   summary: >
     I worked with genetic algorithms, machine learning and geospatial data to create tools that speed up the design of large-scale 
-    linear infrastructure projects; most notably electricity transmission lines, whose fast development is crucial for
+    linear infrastructure projects - most notably electricity transmission lines, whose fast development is crucial for
     the transition to renewable energy.
 
     <ul class="resume-item-list">
     <li>Led improvements to genetic algorithms, including smart visualisation of spatially diverse routes and efficient parallel runs of the core algorithms</li>
-    <li>Developed 2 ML prototypes to extract data from analog maps and measure the width of roads from satellite imagery</li>
+    <li>Developed 2 ML prototypes to extract data from analogue maps and measure the width of roads from satellite imagery</li>
     <li>Developed LLM-based tools for analysing possible transmission routes and generating technical reports</li>
     </ul>
 
 
 - company: University of Edinburgh
   position: Research Fellow
-  duration: Aug 2023 &mdash; Mar 2024 • 8mos
+  duration: Aug 2023 &mdash; Mar 2024 • 8m
   summary: >
     I worked with a novel retinal image dataset to
-    develop deep learning models for the early detection of Age-related Macular
-    Degeneration, Glaucoma and other retinal diseases.
+    develop deep learning models for the early detection of age-related macular
+    degeneration, glaucoma and other retinal diseases.
 
     <ul class="resume-item-list">
-    <li>Implemented semantic segmentation and classification models in pytorch</li>
+    <li>Implemented semantic segmentation and classification models in PyTorch</li>
     <li>Worked with retinal imaging foundation models using ViT architectures</li>
     </ul>
 
 - company: Too Good To Go
   position: Machine Learning Engineer
-  duration: Oct 2021 &mdash; Mar 2023 • 1yr 6mos
+  duration: Oct 2021 &mdash; Mar 2023 • 1yr 6m
   summary: >
     I worked on building a product recommendation system from the ground up.
-    My work spanned a range of ML areas, from EDA and model development, to CI/CD and productionising model workflows.
+    My work spanned a range of ML areas, from EDA and model development to CI/CD and productionising model workflows.
 
     <ul class="resume-item-list">
-    <li>Designed and implemented a recommender model that increased user purchase conversion by 0.6% pp versus a baseline in A/B tests (projected value of £1m+ per year)</li>
-    <li>Led the adoption of <a href=https://metaflow.org/>Metaflow</a> as our ML Workflow tool, significantly speeding up development</li>
-    <li>Experimented with new modelling approaches inspired by RecSys 2022</li>
+    <li>Designed and implemented a recommender model that increased user purchase conversion by 0.6pp versus a baseline in A/B tests (projected value of £1m+ per year)</li>
+    <li>Led the adoption of <a href=https://metaflow.org/>Metaflow</a> as our ML workflow tool, significantly speeding up development</li>
+    <li>Experimented with new modelling approaches inspired by research presented at RecSys 2022</li>
     </ul>
   
 - company: John Lewis Partnership
   position: Lead Data Scientist, Product Recommendations
-  duration: Mar 2021 &mdash; Oct 2021 • 8mos
+  duration: Mar 2021 &mdash; Oct 2021 • 8m
   summary: >
     Led a team of 4 in the design and execution of data science and data engineering work, focusing on development of existing and new recommendations models - whilst still writing production code. 
     Achievements:
 
     <ul class="resume-item-list">
     <li>Implemented hyperparameter tuning using sklearn pipelines across all in-house models - boosting recommendation performance in A/B tests</li>
-    <li>Iterated on a sequence learning (Prod2Vec) model built on web browsing data in Tensorflow by exposing extra hyperparameters</li>
+    <li>Iterated on a sequence learning (Prod2Vec) model built on web browsing data in TensorFlow by exposing extra hyperparameters</li>
     </ul>
 
 - position: Data Scientist, Product Recommendations
-  duration: Aug 2020 &mdash; Mar 2021 • 8mos
+  duration: Aug 2020 &mdash; Mar 2021 • 8m
   summary: >
-    Responsible for developing in-house recommendation algorithms and ensured they delivered good results in production. 
+    Responsible for developing in-house recommendation algorithms and ensuring they delivered good results in production. 
     Achievements:
 
     <ul class="resume-item-list">
     <li>Productionised a previously tested model on GCP, using AI Platform for training and serving</li>
-    <li>Drove implementation of a solution for more granular analysis of A/B tests using Airflow and Bigquery</li>
+    <li>Drove implementation of a solution for more granular analysis of A/B tests using Airflow and BigQuery</li>
     <li>Organised a regular journal club session, where we discussed recent publications and used them to inform our product roadmap</li>
     </ul>
 
 - position: Data Scientist
-  duration: Apr 2018 &mdash; Aug 2020 • 2yrs 5mos
+  duration: Apr 2018 &mdash; Aug 2020 • 2yrs 5m
   summary: >
     Worked on a variety of different projects as one of the first members of a new Data Science team,
     and gained exposure to a number of different business areas and modelling techniques, including:
@@ -92,7 +92,7 @@
 
 - company: Kubrick Group
   position: Data Scientist
-  duration: Jan 2018 &mdash; Apr 2018 • 4mos
+  duration: Jan 2018 &mdash; Apr 2018 • 4m
   summary: >
     Kubrick provided 4 months of core training in data problem solving along with 
     the key technologies needed to succeed as a data scientist:
@@ -106,4 +106,4 @@
 
     This training culminated in a group project, in which my contribution was to use the Twitter API
     to perform an analysis of public perception of different brands based on exemplar accounts.   
-    This methodology was adapted from - Culotta, A. and Cutler, J., 2016. Mining brand perceptions from twitter social networks
+    This methodology was adapted from - Culotta, A. and Cutler, J., 2016. Mining brand perceptions from Twitter social networks
