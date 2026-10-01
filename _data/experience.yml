@@ -89,21 +89,3 @@
     <li>Warehouse process simulation and optimisation</li>
     <li>Evaluation of experiments using counterfactual methods</li>
     </ul>
-
-- company: Kubrick Group
-  position: Data Scientist
-  duration: Jan 2018 &mdash; Apr 2018 • 4m
-  summary: >
-    Kubrick provided 4 months of core training in data problem solving along with 
-    the key technologies needed to succeed as a data scientist:
-
-    <ul class="resume-item-list">
-    <li>Core Python - data structures, IO, OOP paradigms</li>
-    <li>Python libraries for data science & machine learning - sklearn, pandas, numpy</li>
-    <li>Advanced SQL</li>
-    <li>Git</li>
-    </ul>
-
-    This training culminated in a group project, in which my contribution was to use the Twitter API
-    to perform an analysis of public perception of different brands based on exemplar accounts.   
-    This methodology was adapted from - Culotta, A. and Cutler, J., 2016. Mining brand perceptions from Twitter social networks
