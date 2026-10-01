@@ -221,15 +221,6 @@
 
     </div>
 
-    {% if page.auto_print %}
-    <!-- pdf.html: open the print / save-as-PDF dialog once the web fonts have loaded -->
-    <script>
-      window.addEventListener('load', function () {
-        (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { window.print(); });
-      });
-    </script>
-    {% endif %}
-
   </body>
 
 </html>
