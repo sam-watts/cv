@@ -22,7 +22,7 @@ docker run --rm --platform linux/amd64 $USER_ENV \
 
 python3 -m http.server "$PORT" --directory "$SITE" >/dev/null 2>&1 &
 SERVER=$!
-trap 'kill $SERVER; wait $SERVER 2>/dev/null; rm -rf "$SITE"' EXIT
+trap 'kill $SERVER; wait $SERVER 2>/dev/null || true; rm -rf "$SITE"' EXIT
 sleep 1
 
 echo "Printing PDF..."
