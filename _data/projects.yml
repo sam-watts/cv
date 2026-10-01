@@ -1,5 +1,14 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
+- project: Carbon13 Venture Builder Programme
+  role: Venture Founder
+  url: "https://carbonthirteen.com/programmes/venture-builder-cambridge/"
+  duration: 2025
+  description: I explored several areas of climate tech from both a business and a technical perspective.
+    With a co-founder, I worked on validating software tooling for recipe formulation in the food industry,
+    focusing on novel ingredients from precision fermentation and cultivated meat.
+    We ultimately decided not to continue the venture together, but it was a valuable crash course in early-stage company building.
+
 
 - project: DataKind
   role: DataDive Volunteer & Data Ambassador
