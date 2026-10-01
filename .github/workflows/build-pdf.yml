@@ -4,7 +4,7 @@ name: Build PDF
 
 on:
   push:
-    branches: [gh-pages, worktree-pdf-button]  # TEMP: testing on branch
+    branches: [gh-pages]
     paths:
       - _config.yml
       - _data/**
@@ -28,7 +28,7 @@ jobs:
   build-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Build PDF
         env:
