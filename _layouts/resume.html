@@ -26,7 +26,7 @@
         </div>
         {% endif %}
 
-        <div class="title-bar no-print">
+        <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
@@ -34,6 +34,9 @@
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>
+
+        <!-- Contact links shown in the PDF / printed version only -->
+        {% include print-social-links.html %}
 
         <div class="executive-summary" itemprop="description">
           {{ site.resume_header_intro }}
@@ -119,7 +122,7 @@
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
-      <section class="content-section">
+      <section class="content-section skills-section">
 
         <header class="section-header">
           <h2>Tools</h2>
@@ -197,7 +200,7 @@
 
       {% if site.resume_section_links %}
       <!-- begin Links -->
-      <section class="content-section">
+      <section class="content-section no-print">
 
         <header class="section-header">
           <h2>Additional Links</h2>
@@ -215,23 +218,17 @@
       <!-- end Links -->
       {% endif %}
 
-      {% if site.resume_print_social_links %}
-      <!-- begin Print Social Links -->
-      <section class="content-section print-only">
-
-        <header class="section-header">
-          <h2>Social Links</h2>
-        </header>
-
-        <div class="resume-item">
-        {% include print-social-links.html %}
-        </div>
-
-      </section>
-      <!-- end Print Social Links -->
-      {% endif %}
 
     </div>
+
+    {% if page.auto_print %}
+    <!-- pdf.html: open the print / save-as-PDF dialog once the web fonts have loaded -->
+    <script>
+      window.addEventListener('load', function () {
+        (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { window.print(); });
+      });
+    </script>
+    {% endif %}
 
   </body>
 

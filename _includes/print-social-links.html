@@ -1,40 +1,45 @@
 <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
 {% if site.resume_print_social_links %}
-<ul>
+<ul class="print-contact-links print-only">
 
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
-  <li><strong>Github</strong>: {{ site.resume_social_links.resume_github_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_github_url }}">{{ site.resume_social_links.resume_github_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- Twitter link -->
   {% if site.resume_social_links.resume_twitter_url %}
-  <li><strong>Twitter</strong>: {{ site.resume_social_links.resume_twitter_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_twitter_url }}">{{ site.resume_social_links.resume_twitter_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- Dribbble link -->
   {% if site.resume_social_links.resume_dribbble_url %}
-  <li><strong>Dribbble</strong>: {{ site.resume_social_links.resume_dribbble_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_dribbble_url }}">{{ site.resume_social_links.resume_dribbble_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- Facebook link -->
   {% if site.resume_social_links.resume_facebook_url %}
-  <li><strong>Facebook</strong>: {{ site.resume_social_links.resume_facebook_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_facebook_url }}">{{ site.resume_social_links.resume_facebook_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- LinkedIn link -->
   {% if site.resume_social_links.resume_linkedin_url %}
-  <li><strong>LinkedIn</strong>: {{ site.resume_social_links.resume_linkedin_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_linkedin_url }}">{{ site.resume_social_links.resume_linkedin_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- Instagram link -->
   {% if site.resume_social_links.resume_instagram_url %}
-  <li><strong>Instagram</strong>: {{ site.resume_social_links.resume_instagram_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_instagram_url }}">{{ site.resume_social_links.resume_instagram_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
   <!-- Website link -->
   {% if site.resume_social_links.resume_website_url %}
-  <li><strong>Website</strong>: {{ site.resume_social_links.resume_website_url }}</li>
+  <li><a href="{{ site.resume_social_links.resume_website_url }}">{{ site.resume_social_links.resume_website_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
+  {% endif %}
+
+  <!-- Medium link -->
+  {% if site.resume_social_links.resume_medium_url %}
+  <li><a href="{{ site.resume_social_links.resume_medium_url }}">{{ site.resume_social_links.resume_medium_url | remove: "https://" | remove: "http://" | remove: "www." }}</a></li>
   {% endif %}
 
 </ul>
