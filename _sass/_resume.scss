@@ -71,6 +71,15 @@
 
   .executive-summary {
     // @include media_larger_than_mobile { font-size: 1.125rem; }
+
+    // "looking for roles" callout (web only - plain text in the PDF)
+    .looking-for {
+      display: block;
+      padding: .6rem .9rem;
+      border-left: 4px solid #e8730c;
+      background: #fff3e6;
+      @include border-radius(0 4px 4px 0);
+    }
   }
 }
 
@@ -219,7 +228,7 @@
   a { color: inherit; }
 
   // header: name, title and contact links
-  .page-header { padding: 0 0 .25rem;
+  .page-header { padding: 0 0 .7rem;
 
     .header-name {
       font-size: 24pt;
@@ -247,7 +256,7 @@
       list-style: none;
       text-align: center;
       font-size: 8.5pt;
-      margin: .3rem 0 .6rem;
+      margin: .3rem 0 1rem;
       padding: 0;
 
       li { display: inline; }
@@ -260,6 +269,12 @@
     }
 
     .executive-summary p { margin: 0; }
+    .executive-summary .looking-for {
+      display: inline;
+      padding: 0;
+      border: none;
+      background: none;
+    }
   }
 
   // sections
@@ -276,6 +291,12 @@
 
   .content-section {
     margin: 0 0 .7rem;
+
+    // never split a company's entry (all its roles) across pages
+    .resume-company {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
 
     .resume-item {
       margin-bottom: .55rem;

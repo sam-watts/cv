@@ -60,11 +60,14 @@
         </header>
 
         {% for job in site.data.experience %}
+        <!-- group each company with its follow-on roles (entries without a company) so the PDF keeps them on one page -->
+        {% if job.company %}{% unless forloop.first %}</div>{% endunless %}<div class="resume-company">{% endif %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
+        {% if forloop.last %}</div>{% endif %}
         {% endfor %}
 
       </section>
