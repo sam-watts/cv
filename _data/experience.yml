@@ -65,27 +65,15 @@
     <li>Iterated on a sequence learning (Prod2Vec) model built on web browsing data in TensorFlow by exposing extra hyperparameters</li>
     </ul>
 
-- position: Data Scientist, Product Recommendations
-  duration: Aug 2020 &mdash; Mar 2021 • 8m
-  summary: >
-    Responsible for developing in-house recommendation algorithms and ensuring they delivered good results in production. 
-    Achievements:
-
-    <ul class="resume-item-list">
-    <li>Productionised a previously tested model on GCP, using AI Platform for training and serving</li>
-    <li>Drove implementation of a solution for more granular analysis of A/B tests using Airflow and BigQuery</li>
-    <li>Organised a regular journal club session, where we discussed recent publications and used them to inform our product roadmap</li>
-    </ul>
-
 - position: Data Scientist
-  duration: Apr 2018 &mdash; Aug 2020 • 2yrs 5m
+  duration: Apr 2018 &mdash; Mar 2021 • 2yrs 11m
   summary: >
-    Worked on a variety of different projects as one of the first members of a new Data Science team,
-    and gained exposure to a number of different business areas and modelling techniques, including:
+    I joined as one of the first members of a new Data Science team, working across product demand forecasting,
+    supply chain optimisation with vehicle routing models, warehouse simulation, and counterfactual evaluation of experiments.
+    From 2020 I specialised in product recommendations, developing in-house algorithms and making sure they delivered good results in production.
 
     <ul class="resume-item-list">
-    <li>Product demand forecasting</li>
-    <li>Supply chain optimisation using vehicle routing models</li>
-    <li>Warehouse process simulation and optimisation</li>
-    <li>Evaluation of experiments using counterfactual methods</li>
+    <li>Productionised a recommendation model on GCP, using AI Platform for training and serving</li>
+    <li>Drove implementation of more granular A/B test analysis using Airflow and BigQuery</li>
+    <li>Organised a regular journal club, using recent publications to inform our product roadmap</li>
     </ul>
