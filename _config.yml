@@ -1,6 +1,6 @@
 # Site settings
 title: "Sam Watts - CV"
-description: ""
+description: "Machine Learning Engineer based in Edinburgh. Experience in recommender systems, geospatial data, computer vision and agentic systems, with a focus on climate tech and health."
 url: "https://swatts.xyz"
 baseurl: "/cv"
 

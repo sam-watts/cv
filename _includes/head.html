@@ -15,4 +15,14 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+  <!-- link previews (LinkedIn, Slack, etc.) -->
+  {% capture page_url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.resume_name }} - CV">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:site_name" content="{{ site.resume_name }}">
+  <meta property="og:image" content="{{ '/images/avatar.jpg' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:card" content="summary">
 </head>
